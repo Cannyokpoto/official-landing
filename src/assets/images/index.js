@@ -9,6 +9,7 @@ const PHOTOS = {
     cyber: new URL("./cyber.jpeg", import.meta.url).href,
     noPage: new URL("./404.png", import.meta.url).href,
     data: new URL("./data.jpeg", import.meta.url).href,
+    digital: new URL("./digital.jpeg", import.meta.url).href,
 
 
     discount_avatar: new URL("./discount_avatar.jpg", import.meta.url).href,

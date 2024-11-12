@@ -14,6 +14,7 @@ import Web from "./Pages/Web/Web";
 import Cyber from "./Pages/Cyber/Cyber";
 import NoPage from "./Pages/NoPage/NoPage";
 import Data from "./Pages/Data/Data";
+import Digital from "./Pages/Digital/Digital";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/web" element={<Web />} />
           <Route path="/cyber" element={<Cyber />} />
           <Route path="/data" element={<Data />} />
+          <Route path="/marketing" element={<Digital />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Router>
