@@ -470,7 +470,7 @@ function Digital() {
       {/* training schedule */}
       <div className="flex flex-col items-center gap-2 mt-8 border large:py-5 small:py-2 large:w-80 bg-vogueWhite text-15px small:w-100">
         <h3 className="font-bold text-center w-100">
-          Data Analytics course - Tuition fees, days & time for upcoming classes
+          Digital marketing course - Tuition fees, days & time for upcoming classes
         </h3>
 
         <table className="border border-black">
@@ -482,7 +482,7 @@ function Digital() {
 
           <tr className="border border-black">
             <td className="pl-1 border border-black">Days</td>
-            <td className="pl-1 border border-black">Thursday & Saturday</td>
+            <td className="pl-1 border border-black">Monday & Friday</td>
           </tr>
 
           <tr className="border border-black">
@@ -498,13 +498,14 @@ function Digital() {
           </tr>
           <tr className="border border-black">
             <td className="pl-1 border border-black">fee</td>
-            <td className="pl-1 border border-black">&#8358;190,000</td>
+            <td className="pl-1 border border-black">&#8358;110,000</td>
           </tr>
 
-          <tr className="border border-black">
+          {/* <tr className="border border-black">
             <td className="pl-1 border border-black">Course Duration</td>
             <td className="pl-1 border border-black">3 months</td>
-          </tr>
+          </tr> */}
+          
           {/* <tr className="mt-2 border border-black">
             <th className="border border-black">virtual class</th>
           </tr>
