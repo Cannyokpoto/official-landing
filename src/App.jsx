@@ -12,7 +12,8 @@ import Home from "./Pages/Home/Home";
 import OurCourses from "./Pages/OurCourses/OurCourses";
 import Web from "./Pages/Web/Web";
 import Cyber from "./Pages/Cyber/Cyber";
-import NoPage from "./Pages/NoPage";
+import NoPage from "./Pages/NoPage/NoPage";
+import Data from "./Pages/Data/Data";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/pages" element={<OurCourses />} />
           <Route path="/web" element={<Web />} />
           <Route path="/cyber" element={<Cyber />} />
+          <Route path="/data" element={<Data />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Router>

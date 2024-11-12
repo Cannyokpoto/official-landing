@@ -131,7 +131,7 @@ function Web() {
           </div>
 
           {html && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
                 <h5 className="font-bold">DAY 1</h5>
@@ -223,7 +223,7 @@ function Web() {
           </div>
 
           {css && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
                 <h5 className="font-bold">DAY 1</h5>
@@ -303,7 +303,7 @@ function Web() {
           </div>
 
           {js && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
                 <h5 className="font-bold">DAY 1</h5>
@@ -466,7 +466,7 @@ function Web() {
           </div>
 
           {week1 && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
                 <h5 className="font-bold">DAY 1</h5>
@@ -505,7 +505,7 @@ function Web() {
           </div>
 
           {week2 && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="font-bold">DAY 1</h5>
                 <ul className="list-disc">
@@ -550,7 +550,7 @@ function Web() {
           </div>
 
           {week3 && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="font-bold">DAY 1</h5>
                 <ul className="list-disc">
@@ -590,7 +590,7 @@ function Web() {
           </div>
 
           {week4 && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <h5 className="font-bold">DAY 1</h5>
                 <ul className="list-disc">
@@ -628,7 +628,7 @@ function Web() {
           </div>
 
           {week5 && (
-            <div className="flex flex-col items-center h-auto w-60">
+            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <ul className="list-disc">
                   <li>Django Setup</li>
@@ -738,55 +738,55 @@ function Web() {
 
         <table className="border border-black">
           <tr className="border border-black">
-            <th className="border border-black">Onsite</th>
+            <th className="border border-black" colSpan={'3'}>Onsite</th>
           </tr>
 
           <tr className="border border-black">
-            <td className="border border-black">Stack</td>
-            <td className="border border-black">Frontend</td>
-            <td className="border border-black">Backend</td>
+            <td className="pl-1 border border-black">Stack</td>
+            <td className="pl-1 border border-black">Frontend</td>
+            <td className="pl-1 border border-black">Backend</td>
           </tr>
 
           <tr className="border border-black">
-            <td className="border border-black">days</td>
-            <td className="border border-black">Monday & Wednesday</td>
-            <td className="border border-black">Tuesday & Thursday</td>
+            <td className="pl-1 border border-black">days</td>
+            <td className="pl-1 border border-black">Monday & Wednesday</td>
+            <td className="pl-1 border border-black">Tuesday & Thursday</td>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">Time</td>
-            <td className="border border-black">10am-12pm</td>
-            <td className="border border-black">10am-12pm</td>
+            <td className="pl-1 border border-black">Time</td>
+            <td className="pl-1 border border-black">10am-12pm</td>
+            <td className="pl-1 border border-black">10am-12pm</td>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">location</td>
-            <td className="border border-black">
+            <td className="pl-1 border border-black">location</td>
+            <td className="pl-1 border border-black">
               Suite D7 & D8 Fola Omidiji Plaza, Fagba, Lagos State.
             </td>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">fee</td>
-            <td className="border border-black">&#8358;90,000</td>
-            <td className="border border-black">&#8358;100,000</td>
+            <td className="pl-1 border border-black">fee</td>
+            <td className="pl-1 border border-black">&#8358;90,000</td>
+            <td className="pl-1 border border-black">&#8358;100,000</td>
           </tr>
           <tr className="mt-2 border border-black">
-            <th className="border border-black">virtual class</th>
+            <th className="border border-black" colSpan={'3'}>virtual class</th>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">days</td>
-            <td className="border border-black">saturdays and sundays</td>
+            <td className="pl-1 border border-black">days</td>
+            <td className="pl-1 border border-black">saturdays and sundays</td>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">Time</td>
-            <td className="border border-black">1pm - 4pm</td>
+            <td className="pl-1 border border-black">Time</td>
+            <td className="pl-1 border border-black">1pm - 4pm</td>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">location</td>
-            <td className="border border-black">online</td>
+            <td className="pl-1 border border-black">location</td>
+            <td className="pl-1 border border-black">online</td>
           </tr>
           <tr className="border border-black">
-            <td className="border border-black">fee</td>
-            <td className="border border-black">&#8358;90,000</td>
-            <td className="border border-black">&#8358;100,000</td>
+            <td className="pl-1 border border-black">fee</td>
+            <td className="pl-1 border border-black">&#8358;90,000</td>
+            <td className="pl-1 border border-black">&#8358;100,000</td>
           </tr>
         </table>
       </div>

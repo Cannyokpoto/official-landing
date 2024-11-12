@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import PHOTOS from "../../assets/images";
 import { Link } from "react-router-dom";
 
-function Cyber() {
- 
-  
-
+function Data() {
   const [week1, setWeek1] = useState(false);
   const toggleWeek1 = () => {
     setWeek1(!week1);
@@ -36,8 +33,6 @@ function Cyber() {
     setWeek6(!week6);
   };
 
-
-
   // FAQ
   const [faq1, setFaq1] = useState(false);
   const toggleFaq1 = () => {
@@ -66,35 +61,36 @@ function Cyber() {
 
   return (
     <div className="flex flex-col items-center h-auto pb-5 mt-5 large:w-100vw small:w-90vw text-15px">
-
       {/* Hero section */}
       <div className="flex items-center justify-center h-auto gap-5 py-3 border large:w-80 bg-vogueWhite large:flex-row small:flex-col">
-        
-        <div className="flex items-center justify-center border large:w-40 large:h-300px small:w-90 small:h-200px">
+        <div className="flex items-center justify-center large:w-30 large:h-300px small:w-90 small:h-200px">
           <img
-            src={PHOTOS.cyber}
+            src={PHOTOS.data}
             alt="hero image"
             className="w-100 h-100 rounded-10"
           />
         </div>
 
         <div className="flex flex-col items-start justify-center h-auto gap-2 small:px-1 large:w-40 small:w-100 large:px-0">
-          <h3 className="text-center text-25px">Cyber security Course Overview</h3>
+          <h3 className="text-center text-25px">
+            Data Analytics Course Overview
+          </h3>
 
           <p className="text-15px">
-            This Cybersecurity training program covers Security Operations,
-            Ethical Hacking and Penetration testing providing the skills
-            required for a candidate to become a security professional. The
-            Skills acquired through this course can make one to understand the
-            essential concepts to perform penetration testing, uncover the
-            vulnerabilities and solutions to mitigate the risk of attack.
+            The business world is evolving rapidly, hence the need to advance
+            your data analysis skills set to stay relevant in your career. This
+            programme covers Excel techniques for collecting, presenting,
+            describing and making inferences from sets of data.
           </p>
+
           <p className="text-15px">
-            In this course we will also discuss the scenarios wit few advanced
-            tools to identify, detect and exploit any vulnerability uncovered in
-            the target network environment. The interesting part of this course
-            is that we will have more practical demos to understand the
-            theoretical concepts.
+            The Power BI course for Data Analytics is designed to impart the
+            skills required for interaction and maintenence of robust
+            visualizations and custom data models. The course involves hands-on
+            exercises based on real-life projects requiring data analysis
+            techniques to help learners explore, create and manage highly
+            interactive data Visualizations with the guidance of professional
+            data analysts.
           </p>
         </div>
       </div>
@@ -102,7 +98,9 @@ function Cyber() {
 
       {/* Course Content */}
       <div className="flex flex-col items-center gap-2 mt-8 border large:py-5 large:w-80 bg-vogueWhite small:w-100 small:py-2">
-        <h3 className="font-bold text-center w-100">Cyber security Course Curriculum</h3>
+        <h3 className="font-bold text-center w-100">
+          Data Analytics Course Curriculum
+        </h3>
 
         {/* SECTION A */}
 
@@ -111,7 +109,7 @@ function Cyber() {
             className="flex items-center justify-between h-auto px-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 text-landingBlue bg-vogueWhite small:w-90"
             onClick={toggleWeek1}
           >
-            <p>SECTION A</p>
+            <p>Data Analysis and Visualization with Python</p>
             <span className="text-30px">{week1 ? "-" : "+"}</span>
           </div>
 
@@ -121,18 +119,12 @@ function Cyber() {
                 {/* <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5> */}
                 {/* <h5 className="font-bold">DAY 1</h5> */}
                 <ul className="list-disc">
-                  <li>Overview of information and Cyber security</li>
-                  <li>Prospects in the security industry</li>
-                  <li>Earnings</li>
-                  <li>Areas of specialization</li>
-                  <li>Certifications</li>
-
-                  <li>Security as Technology, Processes and Actions</li>
-                  <li>Confidentiality</li>
-                  <li>Integrity</li>
-                  <li>Availability</li>
-                  <li>Privacy</li>
-                  <li>Safety</li>
+                  <li>Introduction to Python for Data Analysis</li>
+                  <li>Data Manipulation with Pandas</li>
+                  <li>Data Visualization with Matplotlib and Seaborn</li>
+                  <li>Exploratory Data Analysis (EDA) Techniques</li>
+                  <li>Statistical Analysis with Python</li>
+                  <li>Machine Learning for Data Analysis</li>
                 </ul>
               </div>
             </div>
@@ -146,7 +138,7 @@ function Cyber() {
             className="flex items-center justify-between h-auto px-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite"
             onClick={toggleWeek2}
           >
-            <p>SECTION B</p>
+            <p>SQL for Data Analysis</p>
             <span className="text-30px">{week2 ? "-" : "+"}</span>
           </div>
 
@@ -156,29 +148,12 @@ function Cyber() {
                 <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
                 <h5 className="font-bold">DAY 1</h5>
                 <ul className="list-disc">
-                  <li>
-                    KNOW YOURSELF - The Threat and Vulnerability Landscape
-                  </li>
-                  <li>Protect What You Value</li>
-                  <li>What is Privacy, Anonymity and Pseudonymity</li>
-                  <li>Security, Vulnerabilities, Threats and Adversaries</li>
-                  <li>Threat Modeling and Risk Assessments</li>
-                  <li>Security vs Privacy vs Anonymity - Can we have it all</li>
-                  <li>Defense In Depth</li>
-                  <li>The Zero Trust Model</li>
-
-                  <li>
-                    KNOW YOUR ENEMY - The Current Threat and Vulnerability
-                    Landscape
-                  </li>
-                  <li>Goals and Learning Objectives</li>
-                  <li>Why You Need Security – The Value Of A Hack</li>
-                  <li>The Top 3 Things You Need To Stay Safe Online</li>
-                  <li>
-                    Security Bugs and Vulnerabilities - The Vulnerability
-                    Landscape
-                  </li>
-                  <li>Hackers, crackers and cyber criminals</li>
+                  <li>Introduction to SQL and Relational Databases</li>
+                  <li>Querying Data with SQL</li>
+                  <li>Filtering, Sorting, and Joining Data</li>
+                  <li>Aggregating and Grouping Data</li>
+                  <li>Subqueries and Advanced SQL Techniques</li>
+                  <li>Working with Views and Stored Procedures</li>
                 </ul>
               </div>
             </div>
@@ -191,24 +166,22 @@ function Cyber() {
             className="flex items-center justify-between h-auto px-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite"
             onClick={toggleWeek3}
           >
-            <p>SECTION C</p>
+            <p>Excel for Data Analysis</p>
             <span className="text-30px">{week3 ? "-" : "+"}</span>
           </div>
 
           {week3 && (
             <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
-                <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
-                <h5 className="font-bold">DAY 1</h5>
+                {/* <h5 className="h-auto font-bold text-center w-100">WEEK 1</h5>
+                <h5 className="font-bold">DAY 1</h5> */}
                 <ul className="list-disc">
-                  <li>Malware, viruses, rootkits and RATs</li>
-                  <li>Spyware, Adware, Scareware, PUPs & Browser hijacking</li>
-                  <li>What is Phishing, Vishing and SMShing</li>
-                  <li>Spamming & Doxing</li>
-                  <li>Social engineering - Scams, cons, tricks and fraud</li>
-                  <li>Darknets, Dark Markets and Exploit kits</li>
-                  <li>Governments, spies and secret stuff</li>
-                  <li>Trust & Backdoors</li>
+                  <li>Introduction to Excel for Data Analysis</li>
+                  <li>Data Cleaning and Preparation in Excel</li>
+                  <li>Formulas and Functions for Data Analysis</li>
+                  <li>Pivot Tables and Data Visualization in Excel</li>
+                  <li>Advanced Excel Techniques for Data Analysis</li>
+                  <li>Automating Data Analysis Tasks in Excel</li>
                 </ul>
               </div>
             </div>
@@ -221,7 +194,7 @@ function Cyber() {
             className="flex items-center justify-between h-auto px-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite"
             onClick={toggleWeek4}
           >
-            <p>SECTION D</p>
+            <p>Power BI for Data Analysis and Visualization</p>
             <span className="text-30px">{week4 ? "-" : "+"}</span>
           </div>
 
@@ -229,23 +202,12 @@ function Cyber() {
             <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <ul className="list-disc">
-                  <li>Encryption</li>
-                  <li>Overview</li>
-                  <li>Symmetric Encryption</li>
-                  <li>Asymmetric Encryption</li>
-                  <li>Hash Functions</li>
-                  <li>Digital Signitures</li>
-                  <li>
-                    Secure Sockets Layer (SSL) and Transport layer security
-                    (TLS)
-                  </li>
-                  <li>SSL Stripping</li>
-                  <li>HTTPS (HTTP Secure)</li>
-                  <li>Digital Certificates</li>
-                  <li>Certificate Authorities and HTTPS</li>
-                  <li>End-to-End Encryption (E2EE)</li>
-                  <li>Steganography</li>
-                  <li>How Security and Encryption is Really Attacked.</li>
+                  <li>Introduction to Power BI and Data Modeling</li>
+                  <li>Importing and Transforming Data in Power BI</li>
+                  <li>Creating and Formatting Visualizations in Power BI</li>
+                  <li>Building Interactive Dashboards in Power BI</li>
+                  <li>Applying Advanced Analytics in Power BI</li>
+                  <li>Sharing and Collaborating on Power BI Reports</li>
                 </ul>
               </div>
             </div>
@@ -258,18 +220,22 @@ function Cyber() {
             className="flex items-center justify-between h-auto px-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite"
             onClick={toggleWeek5}
           >
-            <p>SECTION E</p>
+            <p>Data Analysis Projects</p>
             <span className="text-30px">{week5 ? "-" : "+"}</span>
           </div>
 
           {week5 && (
-            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
+            <div className="flex flex-col items-center h-auto border large:w-60 small:w-80">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <ul className="list-disc">
-                  <li>Risk Management & Security Operations</li>
-                  <li>Incident Response</li>
-                  <li>Business Continuity</li>
-                  <li>Disaster Recovery</li>
+                  <li>
+                    Hands-on Data Analysis Projects using Python, SQL, Excel,
+                    and Power BI
+                  </li>
+                  <li>Real-world Data Analysis Case Studies</li>
+                  <li>Exploring and Analyzing Datasets</li>
+                  <li>Building Data Dashboards and Reports</li>
+                  <li>Data Visualization and Storytelling</li>
                 </ul>
               </div>
             </div>
@@ -277,7 +243,7 @@ function Cyber() {
         </div>
 
         {/* SECTION F */}
-        <div className="flex flex-col items-center w-100 text-15px">
+        {/* <div className="flex flex-col items-center w-100 text-15px">
           <div
             className="flex items-center justify-between h-auto px-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite"
             onClick={toggleWeek6}
@@ -287,7 +253,7 @@ function Cyber() {
           </div>
 
           {week6 && (
-            <div className="flex flex-col items-center h-auto large:w-60 small:w-80">
+            <div className="flex flex-col items-center h-auto w-60">
               <div className="flex flex-col items-start h-auto gap-1 py-2 list-disc w-100">
                 <ul className="list-disc">
                   <h5 className="font-bold">(i) PENETRATION TESTING</h5>
@@ -308,7 +274,9 @@ function Cyber() {
                     Testing
                   </li>
 
-                  <h5 className="mt-2 font-bold">(ii) END TO END PENETRATION TESTING WITH KALI LINUX</h5>
+                  <h5 className="mt-2 font-bold">
+                    (ii) END TO END PENETRATION TESTING WITH KALI LINUX
+                  </h5>
                   <li>Understanding Linux</li>
                   <li>Terminal Commands</li>
                   <li>Information Gathering</li>
@@ -325,12 +293,12 @@ function Cyber() {
               </div>
             </div>
           )}
-        </div>
+        </div> */}
 
         {/* PROJECT & EXAM */}
-        <div className="flex items-center justify-between h-auto px-1 py-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite text-15px">
+        {/* <div className="flex items-center justify-between h-auto px-1 py-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite text-15px">
           <p>PROJECT & EXAM</p>
-        </div>
+        </div> */}
 
         {/* MENTORSHIP */}
         <div className="flex items-center justify-between h-auto px-1 py-1 border cursor-pointer border-landingBlue hover:text-vogueWhite hover:bg-landingBlue rounded-4 large:w-50 small:w-90 text-landingBlue bg-vogueWhite text-15px">
@@ -341,27 +309,26 @@ function Cyber() {
       {/* training schedule */}
       <div className="flex flex-col items-center gap-2 mt-8 border large:py-5 small:py-2 large:w-80 bg-vogueWhite text-15px small:w-100">
         <h3 className="font-bold text-center w-100">
-          Cyber security course - Tuition fees, days & time for upcoming classes</h3>
+        Data Analytics course - Tuition fees, days & time for upcoming classes
+        </h3>
 
         <table className="border border-black">
           <tr className="border border-black">
-            <th className="border border-black colspan" colSpan={`2`}>Training Schedule</th>
+            <th className="border border-black colspan" colSpan={`2`}>
+              Training Schedule
+            </th>
           </tr>
 
           <tr className="border border-black">
-            <td className="pl-1 border border-black">days</td>
-            <td className="pl-1 border border-black">Monday & Friday</td>
+            <td className="pl-1 border border-black">Days</td>
+            <td className="pl-1 border border-black">Thursday & Saturday</td>
           </tr>
 
           <tr className="border border-black">
             <td className="pl-1 border border-black">Time</td>
             <td className="pl-1 border border-black">10am - 1pm</td>
           </tr>
-          <tr className="border border-black">
-            <td className="pl-1 border border-black">location</td>
-            <td className="pl-1 border border-black">10am-12pm</td>
-          </tr>
-          
+
           <tr className="border border-black">
             <td className="pl-1 border border-black">location</td>
             <td className="pl-1 border border-black">
@@ -493,9 +460,14 @@ function Cyber() {
         </div>
       </div>
 
-      <Link to='/pages' className="flex items-center justify-center w-auto px-2 mt-5 text-white rounded bg-landingBlue h-40px">See other courses</Link>
+      <Link
+        to="/pages"
+        className="flex items-center justify-center w-auto px-2 mt-5 text-white rounded bg-landingBlue h-40px"
+      >
+        See other courses
+      </Link>
     </div>
   );
 }
 
-export default Cyber;
+export default Data;
