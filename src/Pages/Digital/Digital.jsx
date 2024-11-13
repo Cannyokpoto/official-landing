@@ -493,7 +493,7 @@ function Digital() {
           <tr className="border border-black">
             <td className="pl-1 border border-black">Location</td>
             <td className="pl-1 border border-black">
-              #167 Iju Road By Providence Schools, Fagba, Lagos State.
+            #167 Iju Road Beside Providence Schools, Fagba, Lagos State.
             </td>
           </tr>
           <tr className="border border-black">

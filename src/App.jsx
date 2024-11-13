@@ -16,6 +16,9 @@ import NoPage from "./Pages/NoPage/NoPage";
 import Data from "./Pages/Data/Data";
 import Digital from "./Pages/Digital/Digital";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import Graphics from "./Pages/Graphics/Graphics";
+import ProductDesign from "./Pages/productDesign/productDesign";
+import WordPress from "./Pages/wordPress/WordPress";
 
 
 function App() {
@@ -37,6 +40,9 @@ function App() {
           <Route path="/cyber" element={<Cyber />} />
           <Route path="/data" element={<Data />} />
           <Route path="/marketing" element={<Digital />} />
+          <Route path="/graphics" element={<Graphics />} />
+          <Route path="/product-design" element={<ProductDesign />} />
+          <Route path="/wordpress" element={<WordPress />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Router>

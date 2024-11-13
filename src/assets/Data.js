@@ -21,7 +21,7 @@ const courses = [
 
     {
         name: "Graphic design",
-        path: "graphic",
+        path: "graphics",
     },
 
     {

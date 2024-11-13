@@ -350,26 +350,26 @@ function Cyber() {
 
           <tr className="border border-black">
             <td className="pl-1 border border-black">days</td>
-            <td className="pl-1 border border-black">Monday & Friday</td>
+            <td className="pl-1 border border-black">Friday & Saturday</td>
           </tr>
 
           <tr className="border border-black">
             <td className="pl-1 border border-black">Time</td>
             <td className="pl-1 border border-black">10am - 1pm</td>
           </tr>
-          <tr className="border border-black">
+          {/* <tr className="border border-black">
             <td className="pl-1 border border-black">location</td>
             <td className="pl-1 border border-black">10am-12pm</td>
-          </tr>
+          </tr> */}
           
           <tr className="border border-black">
-            <td className="pl-1 border border-black">location</td>
+            <td className="pl-1 border border-black">Location</td>
             <td className="pl-1 border border-black">
-              #167 Iju Road By Providence Schools, Fagba, Lagos State.
+              #167 Iju Road Beside Providence Schools, Fagba, Lagos State.
             </td>
           </tr>
           <tr className="border border-black">
-            <td className="pl-1 border border-black">fee</td>
+            <td className="pl-1 border border-black">Fee</td>
             <td className="pl-1 border border-black">&#8358;190,000</td>
           </tr>
 

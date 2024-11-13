@@ -748,7 +748,7 @@ function Web() {
           </tr>
 
           <tr className="border border-black">
-            <td className="pl-1 border border-black">days</td>
+            <td className="pl-1 border border-black">Days</td>
             <td className="pl-1 border border-black">Monday & Wednesday</td>
             <td className="pl-1 border border-black">Tuesday & Thursday</td>
           </tr>
@@ -760,11 +760,11 @@ function Web() {
           <tr className="border border-black">
             <td className="pl-1 border border-black">location</td>
             <td className="pl-1 border border-black">
-              Suite D7 & D8 Fola Omidiji Plaza, Fagba, Lagos State.
+            #167 Iju Road Beside Providence Schools, Fagba, Lagos State.
             </td>
           </tr>
           <tr className="border border-black">
-            <td className="pl-1 border border-black">fee</td>
+            <td className="pl-1 border border-black">Fee</td>
             <td className="pl-1 border border-black">&#8358;90,000</td>
             <td className="pl-1 border border-black">&#8358;100,000</td>
           </tr>
@@ -772,7 +772,7 @@ function Web() {
             <th className="border border-black" colSpan={'3'}>virtual class</th>
           </tr>
           <tr className="border border-black">
-            <td className="pl-1 border border-black">days</td>
+            <td className="pl-1 border border-black">Days</td>
             <td className="pl-1 border border-black">saturdays and sundays</td>
           </tr>
           <tr className="border border-black">
@@ -780,11 +780,11 @@ function Web() {
             <td className="pl-1 border border-black">1pm - 4pm</td>
           </tr>
           <tr className="border border-black">
-            <td className="pl-1 border border-black">location</td>
+            <td className="pl-1 border border-black">Location</td>
             <td className="pl-1 border border-black">online</td>
           </tr>
           <tr className="border border-black">
-            <td className="pl-1 border border-black">fee</td>
+            <td className="pl-1 border border-black">Fee</td>
             <td className="pl-1 border border-black">&#8358;90,000</td>
             <td className="pl-1 border border-black">&#8358;100,000</td>
           </tr>

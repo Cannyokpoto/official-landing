@@ -10,6 +10,8 @@ const PHOTOS = {
     noPage: new URL("./404.png", import.meta.url).href,
     data: new URL("./data.jpeg", import.meta.url).href,
     digital: new URL("./digital.jpeg", import.meta.url).href,
+    graphics: new URL("./graphics.jpg", import.meta.url).href,
+    wordpress: new URL("./wordpress.jpg", import.meta.url).href,
 
 
     discount_avatar: new URL("./discount_avatar.jpg", import.meta.url).href,
