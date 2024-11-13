@@ -15,6 +15,7 @@ import Cyber from "./Pages/Cyber/Cyber";
 import NoPage from "./Pages/NoPage/NoPage";
 import Data from "./Pages/Data/Data";
 import Digital from "./Pages/Digital/Digital";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <FaWhatsapp className="text-white large:text-30px small:text-25px hover:text-green-500" />
       </a>
       <Router>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pages" element={<OurCourses />} />

@@ -491,13 +491,13 @@ function Digital() {
           </tr>
 
           <tr className="border border-black">
-            <td className="pl-1 border border-black">location</td>
+            <td className="pl-1 border border-black">Location</td>
             <td className="pl-1 border border-black">
               #167 Iju Road By Providence Schools, Fagba, Lagos State.
             </td>
           </tr>
           <tr className="border border-black">
-            <td className="pl-1 border border-black">fee</td>
+            <td className="pl-1 border border-black">Fee</td>
             <td className="pl-1 border border-black">&#8358;110,000</td>
           </tr>
 
