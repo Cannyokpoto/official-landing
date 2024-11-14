@@ -144,7 +144,9 @@ module.exports = {
         paleYellow: '#A49C5A',
         overlay: 'rgb(23, 23, 23, 0.7)',
         appBg: '#f1f1f2',
-        landingBlue: 'rgb(59, 130, 246)'
+        // landingBlue: 'rgb(59, 130, 246)'
+        landingBlue: '#1f5dd7'
+        
       },
 
       gap: {

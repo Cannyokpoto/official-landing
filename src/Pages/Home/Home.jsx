@@ -18,7 +18,7 @@ function Home() {
         </div>
 
         <div className="flex flex-col justify-center h-auto gap-2 large:items-start large:w-40 large:text-17px small:w-100 small:text-15px small:items-center">
-          <h1 className="font-bold text-center text-blue-500 large:text-30px small:text-20px">
+          <h1 className="font-bold text-center text-landingBlue large:text-30px small:text-20px">
             LEARNING CAN BE FUN
           </h1>
 
@@ -29,7 +29,7 @@ function Home() {
 
           <Link
             to="/pages"
-            className="flex items-center justify-center p-1 bg-blue-500 text-vogueWhite rounded-4"
+            className="flex items-center justify-center p-1 bg-landingBlue text-vogueWhite rounded-4"
           >
             Explore Our Courses
           </Link>
