@@ -8,7 +8,8 @@ function Home() {
       
       <div className="flex items-center justify-center h-auto py-3 large:gap-5 large:w-80 bg-vogueWhite small:w-90vw large:flex-row small:flex-col small:gap-3">
         
-        <div className="flex items-center justify-center large:w-40 large:h-400px small:w-90 small:h-200px">
+        <div className="flex items-center justify-center large:w-40 large:h-400px small:w-90 small:h-250px">
+          
           <img
             src={PHOTOS.hero_image}
             alt="hero image"

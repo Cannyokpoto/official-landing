@@ -13,11 +13,11 @@ function Header() {
   }
   
   return (
-    <header className='flex items-center border large:justify-around w-100vw h-80px bg-vogueWhite small:justify-between small:px-3 large:px-0'>
-      <img src={PHOTOS.LOGO} alt="logo" className='large:w-100px large:h-60 small:w-50px small:h-40'/>
+    <header className='flex items-center border large:justify-around w-100vw h-80px bg-vogueWhite small:justify-end small:px-3 large:px-0 large:gap-10 small:gap-7'>
+      
+      <img src={PHOTOS.LOGO} alt="logo" className='large:w-100px large:h-60 small:w-120px small:h-60'/>
 
       {nav ?
-
         <IoClose className='font-bold cursor-pointer large:hidden text-30px'
         onClick={toggleNav}
         /> :
