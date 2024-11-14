@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className='flex items-center border large:justify-around w-100vw h-80px bg-vogueWhite small:justify-end small:px-3 large:px-0 large:gap-10 small:gap-7'>
       
-      <img src={PHOTOS.LOGO} alt="logo" className='large:w-100px large:h-60 small:w-120px small:h-60'/>
+      <img src={PHOTOS.LOGO} alt="logo" className='large:w-100px large:h-60 small:w-150px small:h-70'/>
 
       {nav ?
         <IoClose className='font-bold cursor-pointer large:hidden text-30px'
